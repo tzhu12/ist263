@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 04 Notes-Forms</title>
+    </head>
+    <body>
+        <h1>Apply For College</h1>
+        <form action="mailto:tzhu12@syr.edu" method="POST">
+            <!-- action mailto is going to send an email of our form data-->
+            <!-- post method is required with mailto action-->
+            <!-- post sends form data with website headers -->
+            <label for="first name">Type your first name:</label>
+            <input type="text" name="firstname" id="firstname">
+            <!-- the for attribute in lable corresponds to the id attribute in input -->
+            <!-- the values must be the same to associate the lable with form field -->
+        
+            <label for="comments">Comments?</label>
+            <textarea name="comments" id="comments" rows="10" cols="100">
+                Type your comments here.</textarea><br>
+            </textarea>
+        
+            <!-- the only place whitespace matters in default text for text area-->
+            
+            <p> Please chhose your year in school.</p>
+
+            <input type="radio" name="schoolyear" id="schoolyear" value="freshman">
+            <label for="schoolyearfr">freshman</label>
+            <input type="radio" name="schoolyear" id="schoolyear" value="sophomore">
+            <label for="schoolyearso">sophomore</label>
+            <input type="radio" name="schoolyear" id="schoolyear" value="junior">
+            <label for="schoolyearju">junior</label>
+            <input type="radio" name="schoolyear" id="schoolyear" value="senior">
+            <label for="schoolyearse">senior</label><br>
+
+            <input type="checkbox" name="veteran" id="veteran" value="Yes">
+            <label for="veteran">Veteran?</label><br>
+            
+            <label for="start">When are you starting?</label>
+            <select name="start" id="start">
+                <option value="F21">Fall 2021</option>
+                <option value="S22">Spring 2022</option>
+            </select><br>
+            
+            <input type="submit" value="Send Application">
+        </form>
+    </body>
+</html>
