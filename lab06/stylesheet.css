@@ -2,8 +2,8 @@ body{font-family: verdana(sans-serif);}
 
 h1,h2 { color:mediumslateblue;}
 
-.special{color:midnightblue}
+.evenrow{background-color:lightsteelblue;}
 
 h1{font-size: 2em;}
 
-h2{font-size:.5em;}
+h2{font-size: 1em;}
