@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+        <style>
+            .div1 {display:flex; 
+                flex-wrap:wrap;
+                flex: 2; padding: 20px;background-color: #ffffff; border-radius: 2em;
+            margin-top:50px;margin-left:50px;margin-right: 50px;}
+            
+            .article1, .article2 {margin-top: 70px;margin-left: -80px;}
+            .article2 {margin-left:20px;}
+            
+            .div2 {display:flex; 
+                flex-wrap:wrap;
+                flex: 2; padding: 20px;background-color: #ffffff; border-radius: 2em;
+            margin-top:50px;margin-left:50px;margin-right: 50px;}
+
+            .article3 {margin-top: 70px;}
+            .article4 {margin-left:40px; margin-top: 40px; margin-bottom: 40px;}
+        </style>
+        <title>Contact</title>
+        <link rel="stylesheet" href= "../lab09/stylesheet.css">
+    </head>
+
+    <body style= background-color:lightgray;>
+        <nav>
+            <a href="../lab09/index.html">Home</a> <span>|</span>
+            <a href="../lab09/skills.html">Skills</a> <span>|</span>
+            <a href="../lab09/forms.html">Contact</a>
+        </nav>
+        <a href="#maincontent">Skip to Content</a>
+
+        <h1>Contact</h1>
+        <div class="div1">
+            <p style=font-size:1.5em> <strong>Address</strong></p>
+            <article class="article1">
+                <p>
+                    Tinghan Zhu<br>
+                    Hinds Hall<br>
+                    Syracuse, NY 13244
+                </p>
+            </article>
+            
+            <article class="article2">
+                <br><a href="mailto:tzhu12@syr.edu">tzhu12@syr.edu</a><br>
+                <br>
+
+                <img src="../images/logo-sized.png" alt="Linkedin Logo">
+
+                <a href="https://www.linkedin.com/in/tinghan-zhu/">My Linkedin Page Link</a>
+            </article>
+        </div>
+
+        <div class="div2">
+            <article class="article3">
+                <form action="mailto:tzhu12@syr.edu" method="post">
+                    <label for="FullName"> <strong>Please Type Your Full Name: </strong></label><br>
+                    <input type="text" name="FullName" id="FullName">
+
+                    <p><strong>Reason for contact:</strong></p>
+
+                    <input type="radio" name="reason" id="reasonmf" value="Making Friends">
+                    <label for="reasonmf">Making Friend</label>
+                    <input type="radio" name="reason" id="reasonbs" value="Business">
+                    <label for="reasonbs">Business</label>
+                    <input type="radio" name="reason" id="reasonot" value="Other">
+                    <label for="reasonot">Other</label><br>
+                    <br>
+                    <label for="Message"><strong>Messages</strong></label><br>
+                    <textarea name="Message" id="Message" rows="5" cols="50">Leave a Message</textarea><br>
+
+                    <input type="submit" value="Submit Message">
+
+                </form>
+            </article>
+
+            <article class="article4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4631.021068351739!2d-76.14187692805567!3d43.048255294172904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3a699e502a7%3A0xb691d71e17210137!2s919%20E%20Genesee%20St%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614266079021!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </article>
+        </div>
+
+
+    </body>
+</html>

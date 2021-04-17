@@ -1,0 +1,30 @@
+body{font-family: verdana(sans-serif);}
+
+h1,h2 { color:#000000;}
+
+.evenrow{background-color:#b0c4de;}
+
+h1{font-size: 2em;}
+
+h2{font-size: 1.3em;}
+
+nav {
+    background-color: #ca067f;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+nav a:hover{
+    background-color:#040033;
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {width: 100%;
+    display: block;}
+    nav span{display:none;}
+    body {background-color: lightgray;}
+    }
