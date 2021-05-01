@@ -21,6 +21,10 @@ nav a {
     color: #ffffff;
 }
 
+.img1{width: 70%;
+display: block;
+margin-left: auto;
+margin-right: auto;}
 nav a:hover{
     background-color:#040033;
 }
