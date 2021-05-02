@@ -2,8 +2,8 @@ body{background-color:#EAE7DC;
     color:black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
 
-h1,h2,h3 { color:#a84b41;}
-h1{font-family:'Times New Roman', Times, serif;
+h1,h2,h3 { color:#250599d8;}
+h1{font-family:cursive;
     font-size: 2.4em;
     padding:20px;
  }
@@ -13,7 +13,7 @@ h2{font-size: 1.5em;}
 h3{font-size:1.2em;}
 
 nav {
-    background-color:#e85a4f;
+    background-color:#3106cad8;;
     padding: 15px;
     margin-bottom: 40px;
 }
