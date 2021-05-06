@@ -1,9 +1,9 @@
 body{background-color:#EAE7DC;
     color:black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+    font-family: 'Itim', cursive;}
 
 h1,h2,h3 { color:#250599d8;}
-h1{font-family:cursive;
+h1{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.4em;
     padding:20px;
  }
@@ -41,5 +41,6 @@ nav a:hover{
     nav a {width: 100%;
     display: block;}
     nav span{display:none;}
-    body {background-color: white;}
+    body {background-color:#EAE7DC ;}
+    h1{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
     }
