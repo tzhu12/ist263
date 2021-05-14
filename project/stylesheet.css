@@ -1,11 +1,18 @@
 body{background-color:#EAE7DC;
     color:black;
-    font-family: 'Itim', cursive;}
+    font-family: 'Itim', cursive;
+    margin-left: 40px;
+    margin-right: 40px;}
+
+a  {
+    display: none;
+}
 
 h1,h2,h3 { color:#250599d8;}
 h1{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.4em;
     padding:20px;
+    text-align: center;
  }
 
 h2{font-size: 1.5em;}
